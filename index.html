@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hamzah – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">H<span class="dot">.</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#credentials">Credentials</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#capstone">Capstone</a></li>
+    <li><a href="#professional">Professional</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-content">
+    <p class="hero-tag mono">Computer Science · George Brown College · W25</p>
+    <h1 class="hero-name">Hamzah<br/><em>Hafez</em></h1>
+    <p class="hero-sub">Full-Stack Developer &amp; Mobile Engineer</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn-primary">View My Work</a>
+      <a href="resume.pdf" class="btn-ghost" target="_blank">Download Resume</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">scroll ↓</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="section-label mono">01 / Personal Data</div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p class="bio-text">
+          I'm a Computer Science student at George Brown College with a passion for
+          building software that's both functional and elegant. My experience spans
+          mobile development (iOS/SwiftUI, Android), full-stack web engineering
+          (ASP.NET Core, GraphQL, Node.js), and machine learning (TensorFlow/Keras).
+        </p>
+        <p class="bio-text">
+          I approach every project with a systems mindset — understanding not just
+          how to write code, but how pieces fit together to create reliable,
+          scalable experiences.
+        </p>
+        <div class="skills-chips">
+          <span>Swift / SwiftUI</span><span>Android / Java</span>
+          <span>ASP.NET Core</span><span>GraphQL</span>
+          <span>Node.js</span><span>MongoDB</span>
+          <span>PostgreSQL</span><span>TensorFlow</span>
+          <span>Python</span><span>Git</span>
+        </div>
+      </div>
+      <div class="about-sidebar">
+        <div class="info-card">
+          <div class="info-row"><span class="mono label">Location</span><span>Toronto, ON 🇨🇦</span></div>
+          <div class="info-row"><span class="mono label">College</span><span>George Brown</span></div>
+          <div class="info-row"><span class="mono label">GitHub</span><a href="https://github.com/Datadan82" target="_blank">Datadan82</a></div>
+          <div class="info-row"><span class="mono label">Focus</span><span>Mobile &amp; Web Dev</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COVER LETTER -->
+    <div class="subsection">
+      <h3>Cover Letter <span class="tag">Ada – SDR</span></h3>
+      <div class="document-block">
+        <div class="doc-header">
+          <p><strong>Hamzah Hafez</strong><br/>Toronto, ON · Hamzahafez82@gmail.com · (647) 987-9464 · github.com/Datadan82</p>
+          <p class="doc-date">March 21, 2025</p>
+        </div>
+        <p>Dear Hiring Manager,</p>
+        <p>I am writing to express my interest in the <strong>Sales Development Representative</strong> role at
+          <strong>Ada</strong>. As a Computer Science student at George Brown College with hands-on experience
+          in both technical development and customer-facing sales, I believe I bring a rare combination of
+          skills that maps directly onto what Ada is building.</p>
+        <p>For the past two years I have worked as a Sales Representative at Telus | Koodo, engaging with
+          over 30 customers daily, consistently exceeding sales targets, and staying current on an ever-evolving
+          product lineup. Before that, I gained early exposure to outbound sales as a Business Development Intern
+          at Quaiq.com, where I ran targeted email campaigns and worked alongside a call center team on ad sales
+          initiatives. Most importantly, I founded and scaled AYW AUTO Detailing to over $20,000 in revenue
+          within the first three months — an experience that taught me how to prospect, consult, and close,
+          entirely on my own initiative.</p>
+        <p>What draws me specifically to Ada is the intersection of AI and customer experience. My academic
+          background in machine learning, full-stack development, and software engineering means I can go beyond
+          surface-level product knowledge — I can genuinely understand and communicate the value of an AI
+          transformation platform to technical and non-technical stakeholders alike. I am deeply curious about
+          how AI agents are reshaping enterprise customer service, and I am excited to become an Ada product
+          expert and bring that enthusiasm to every prospecting conversation.</p>
+        <p>I thrive in fast-moving environments, welcome direct feedback, and am not afraid of a cold call.
+          I would love the opportunity to contribute to Ada's growth and to the success of the businesses
+          you serve.</p>
+        <p>Thank you for your time and consideration. I look forward to the possibility of speaking with you.</p>
+        <p>Sincerely,<br/><strong>Hamzah Hafez</strong></p>
+      </div>
+    </div>
+
+    <!-- PHILOSOPHY -->
+    <div class="subsection">
+      <h3>Philosophy &amp; Career Statement</h3>
+      <blockquote class="philosophy">
+        "We are the facilitators of our own creative evolution." — Bill Hicks
+      </blockquote>
+      <p class="philosophy-text">
+        I believe that software is one of the most direct expressions of human creativity
+        and problem-solving. My motivation comes not from the technology itself, but from
+        the people it serves — the student who saves time, the business that scales, the
+        user whose workflow just clicked. I hold myself to a standard where every line of
+        code is intentional and every interface decision is deliberate.
+      </p>
+      <p class="philosophy-text">
+        Looking forward, I aspire to work at the intersection of mobile engineering and
+        intelligent systems — building applications that feel natural, adapt to users,
+        and solve real problems. I see my role not just as a developer but as a craftsman:
+        continuously learning, iterating, and contributing to something larger than any single commit.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIALS -->
+<section id="credentials">
+  <div class="section-inner">
+    <div class="section-label mono">02 / Academic Credentials</div>
+    <h2>Education &amp; Awards</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <span class="mono timeline-year">2023 – Present</span>
+          <h4>Diploma in Programming and Analysis</h4>
+          <p>George Brown College · Toronto, ON</p>
+          <p class="timeline-detail">Relevant coursework: Mobile App Development, Software Engineering,
+          Machine Learning, Full-Stack Web Development, Database Management</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+      
+    </div>
+    <div class="transcript-note mono">📄 Academic transcript available upon request.</div>
+  </div>
+</section>
+
+<!-- ACADEMIC WORK -->
+<section id="work">
+  <div class="section-inner">
+    <div class="section-label mono">03 / Academic Work</div>
+    <h2>Project Samples</h2>
+    <p class="section-intro">A selection of academic projects demonstrating applied skills across platforms and stacks.</p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-number mono">01</div>
+        <div class="project-tags"><span>GraphQL</span><span>Node.js</span><span>MongoDB</span></div>
+        <h4>Employee Management System</h4>
+        <p>Full-stack GraphQL API with Apollo Server, JWT authentication, bcrypt password hashing,
+        and Cloudinary photo uploads. Implements all eight required CRUD operations with role-based access control.</p>
+        <a href="https://github.com/Datadan82/COMP3133_101429091_Assignment1" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number mono">02</div>
+        <div class="project-tags"><span>SwiftUI</span><span>Core Data</span><span>iOS</span></div>
+        <h4>iOS Products App</h4>
+        <p>iPhone application managing 10+ products with Core Data persistence,
+        navigation stack, search functionality, and full add/edit/delete workflows.</p>
+        <a href="https://github.com/Datadan82" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number mono">03</div>
+        <div class="project-tags"><span>ASP.NET Core</span><span>PostgreSQL</span><span>Azure</span></div>
+        <h4>SmartInventory Web App</h4>
+        <p>MVC inventory management system with PostgreSQL on Azure, user authentication,
+        role-based authorization, AJAX interactions, search, export, and unit testing.</p>
+        <a href="https://github.com/Datadan82" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number mono">04</div>
+        <div class="project-tags"><span>SwiftUI</span><span>Swift Charts</span><span>Group</span></div>
+        <h4>MobDev Group Expense App</h4>
+        <p>Collaborative SwiftUI app featuring TabView navigation, pie chart breakdown
+        by category using Swift Charts, and a grid layout displaying product name, quantity, price, and totals.</p>
+        <a href="https://github.com/Datadan82" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number mono">05</div>
+        <div class="project-tags"><span>Python</span><span>OOP</span><span>Game Dev</span></div>
+        <h4>Hero vs Monster RPG Game</h4>
+        <p>Text-based RPG built with Python OOP principles. Features inheritance hierarchies
+        (Hero/Monster extending Character), combat logic, save/load state, input validation, and a Trap Room mechanic.</p>
+        <a href="https://github.com/Datadan82" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number mono">06</div>
+        <div class="project-tags"><span>TensorFlow</span><span>Keras</span><span>ML</span></div>
+        <h4>Iris Multiclass Classifier</h4>
+        <p>Machine learning assignment comparing two Sequential neural network architectures
+        on the Iris dataset. Experiments vary optimizer, layers, units, epochs, and batch size.</p>
+        <a href="https://github.com/Datadan82" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CAPSTONE -->
+<section id="capstone">
+  <div class="section-inner">
+    <div class="section-label mono">04 / Capstone Project</div>
+    <h2>Capstone <em>Project</em></h2>
+
+
+      <div class="capstone-block full-width">
+        <h4>Capstone Project Repo</h4>
+        <p class="placeholder-text">[Tech stack, architecture decisions, key features, deployment, known limitations.]</p>
+        <a href="https://github.com/Datadan82/Capstone_project_documents" target="_blank" class="btn-ghost">View Capstone Repository →</a>
+      </div>
+    </div>
+</section>
+
+<!-- PROFESSIONAL -->
+<section id="professional">
+  <div class="section-inner">
+    <div class="section-label mono">05 / Professional Summary</div>
+    <h2>Professional <em>Experience</em></h2>
+
+    <div class="resume-section">
+      <h3 class="resume-heading">Work Experience</h3>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <h4>Sales Representative</h4>
+            <p class="resume-company">Telus | Koodo — Mastercom Authorized Dealer · Toronto, ON</p>
+          </div>
+          <span class="resume-date mono">Jan 2023 – Aug 2023 &amp; Dec 2024 – Present</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Engage with over 30 customers daily, providing personalized service to enhance their experience with Telus.</li>
+          <li>Consistently meet and exceed sales targets as a part-time employee.</li>
+          <li>Work closely with team members to streamline sales processes and share best practices.</li>
+          <li>Gather and relay customer feedback to management to help improve products and services.</li>
+          <li>Remained up to date on all Telus | Koodo products and services to provide proper customer care.</li>
+        </ul>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <h4>Business Development Intern</h4>
+            <p class="resume-company">Quaiq.com · Toronto, ON</p>
+          </div>
+          <span class="resume-date mono">Aug 2020 – Sep 2020</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Marketed the application to various businesses through targeted email campaigns.</li>
+          <li>Researched and analyzed market needs for the app.</li>
+          <li>Worked with call center agents on ad sales campaigns.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h3 class="resume-heading">Self-Employment</h3>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <h4>Founder — AYW AUTO Detailing</h4>
+            <p class="resume-company">Toronto, ON</p>
+          </div>
+          <span class="resume-date mono">Jun 2023 – Mar 2024</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Raised over $20,000 in revenue in the first 3 months of opening.</li>
+          <li>Consistently upsold customers on higher-end detailing packages.</li>
+          <li>Provided personalized customer care tailored to the needs of different clients.</li>
+          <li>Worked closely with a business partner to streamline scheduling and sales processes.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h3 class="resume-heading">Skills</h3>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <span class="skills-group-label mono">Technical</span>
+          <div class="skills-chips">
+            <span>Machine Learning</span><span>Data Analysis</span>
+            <span>Software Development</span><span>MS Visual Studio</span><span>Terminal</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <span class="skills-group-label mono">Programming</span>
+          <div class="skills-chips">
+            <span>Python</span><span>Java</span><span>C#</span><span>MySQL</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <span class="skills-group-label mono">Interpersonal</span>
+          <div class="skills-chips">
+            <span>Communication</span><span>Team Collaboration</span><span>Market Research</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <span class="skills-group-label mono">Languages</span>
+          <div class="skills-chips">
+            <span>English</span><span>Arabic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h3 class="resume-heading">Community &amp; Volunteer</h3>
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <h4>Volunteer</h4>
+            <p class="resume-company">Lebanese Orphanage Group</p>
+          </div>
+          <span class="resume-date mono">Mar 2022 – Aug 2022</span>
+        </div>
+        <ul class="resume-bullets">
+          <li>Organized and maintained a clean and safe environment for youth activities.</li>
+          <li>Supervised and ensured the distribution of healthy food and drinks.</li>
+          <li>Organized activities suitable for different stages of youth development.</li>
+          <li>Assisted in cleaning and organizing mosque rooms.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner contact-inner">
+    <div class="section-label mono">06 / Contact</div>
+    <h2>Get In Touch</h2>
+    <p class="contact-sub">Open to internship opportunities, collaborations, and full-time roles.</p>
+    <div class="contact-links">
+      <a href="mailto:Hamzahafez82@gmail.com" class="contact-card">
+        <span class="contact-icon">✉</span>
+        <span>Hamzahafez82@gmail.com</span>
+      </a>
+      <a href="https://github.com/Datadan82" target="_blank" class="contact-card">
+        <span class="contact-icon">⌥</span>
+        <span>github.com/Datadan82</span>
+      </a>
+      <a href="https://www.linkedin.com/in/hamza-hafez-75b3a9200/" target="_blank" class="contact-card">
+        <span class="contact-icon">in</span>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="mono">© 2025 Hamzah Hafez · COMP3078 Portfolio · George Brown College</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

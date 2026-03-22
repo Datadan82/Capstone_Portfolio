@@ -1,4 +1,4 @@
-# COMP3078 Portfolio – Hamzah Al-Safi
+# COMP3078 Portfolio – Hamzah Hafez
 ## George Brown College · W25
 
 ---
